@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="4" passed="4" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2022-02-18T11:27:08Z" name="TestcasesDemo" finished-at="2022-02-18T11:27:26Z" duration-ms="17961">
+    <groups>
+    </groups>
+    <test started-at="2022-02-18T11:27:08Z" name="WikiPage" finished-at="2022-02-18T11:27:19Z" duration-ms="10722">
+      <class name="com.qa.testNGscripts.TestCase1">
+        <test-method signature="testcase2()[pri:0, instance:com.qa.testNGscripts.TestCase1@7dc3712]" started-at="2022-02-18T11:27:08Z" name="testcase2" finished-at="2022-02-18T11:27:14Z" duration-ms="5995" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testcase2 -->
+        <test-method signature="wikipagetest()[pri:0, instance:com.qa.testNGscripts.TestCase1@7dc3712]" started-at="2022-02-18T11:27:14Z" name="wikipagetest" finished-at="2022-02-18T11:27:19Z" duration-ms="4698" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- wikipagetest -->
+      </class> <!-- com.qa.testNGscripts.TestCase1 -->
+    </test> <!-- WikiPage -->
+    <test started-at="2022-02-18T11:27:19Z" name="Amazon" finished-at="2022-02-18T11:27:26Z" duration-ms="7158">
+      <class name="com.qa.testNGscripts.TestCase2">
+        <test-method is-config="true" signature="OpenBrowser()[pri:0, instance:com.qa.testNGscripts.TestCase2@41488b16]" started-at="2022-02-18T11:27:19Z" name="OpenBrowser" finished-at="2022-02-18T11:27:21Z" duration-ms="2007" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- OpenBrowser -->
+        <test-method signature="amazonTest()[pri:49, instance:com.qa.testNGscripts.TestCase2@41488b16]" started-at="2022-02-18T11:27:21Z" name="amazonTest" finished-at="2022-02-18T11:27:24Z" duration-ms="3239" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- amazonTest -->
+        <test-method signature="AlterTest()[pri:50, instance:com.qa.testNGscripts.TestCase2@41488b16]" started-at="2022-02-18T11:27:24Z" name="AlterTest" finished-at="2022-02-18T11:27:26Z" duration-ms="1577" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AlterTest -->
+        <test-method is-config="true" signature="closesession()[pri:0, instance:com.qa.testNGscripts.TestCase2@41488b16]" started-at="2022-02-18T11:27:26Z" name="closesession" finished-at="2022-02-18T11:27:26Z" duration-ms="333" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closesession -->
+      </class> <!-- com.qa.testNGscripts.TestCase2 -->
+    </test> <!-- Amazon -->
+  </suite> <!-- TestcasesDemo -->
+</testng-results>
